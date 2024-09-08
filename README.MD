@@ -7,6 +7,15 @@ This project focuses on the end-to-end development of a Q&A Chatbot tailored to 
 
 <br/>
 
+## Tech Stack
+- ChromaDB: Vector Store
+- LangChain: Chatbot Framework
+- Llama3.1: Large Language Model
+- text-embedding-ada-002: Embedding Model
+- SemanticChunker: Chunking Strategy
+
+<br/>
+
 ## Installation
 1. Clone the repository
 ```bash
