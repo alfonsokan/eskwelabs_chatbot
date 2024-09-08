@@ -1,10 +1,10 @@
 # Eskwelabs Chatbot
-This project focuses on the end-to-end development of a Q&A Chatbot tailored to answer bootcamp-related queries, specifically for Eskwelabs. The methodology covers the key steps, including knowledge base embedding,  Retrieval-Augmented Generation (RAG) chatbot development using LangChain, and deployment via Streamlit. 
+This project focuses on the end-to-end development of a Q&A Chatbot tailored to answer bootcamp-related queries, specifically for Eskwelabs. The guide covers the key steps, including embedding techniques, developing a Retrieval-Augmented Generation (RAG) chatbot using LangChain, and deploying the chatbot via Streamlit. 
 
 ## Installation
 1. Clone the repository
 ```bash
-git clone https://github.com/alfonsokan/eskwelabs_chatbot.git
+git clone
 ```
 2. Install libraries
 ```bash
@@ -36,13 +36,14 @@ The flow chart below displays the 4-step approach to developing the chatbot.
 
 For this step, the documents are embeddings and stored in the vector database called `embeddings_practicev1` located in this repository. 
 
-
 If interested, the code for embedding the documents can be viewed [here](https://colab.research.google.com/drive/1iyz_SkHv7TVDgKJBuRYb1iTtVfxDyGU0?usp=sharing).
 
 <br/>
 
 **2. Retriever Generation**
 - There are two retriever tools, Eskwelabs Info Retriever and General Bootcamp Info Retriever, created from the embedded knowledge base.
+
+
 
 - Another retriever is optionally used when a user submits their resume to the chatbot.
     
@@ -240,7 +241,7 @@ The embedding of the knowledge base can be found [here.](https://colab.research.
 LangSmith can be a useful tool for debugging the chatbot application. To trace its runs, do the following:
 - Create a LangSmith account
 - Retrieve API key
-- Create `.env` file
+- Create .env file
 ```python
 LANGCHAIN_TRACING_V2=true
 LANGCHAIN_API_KEY='ENTER_API_KEY_HERE'
@@ -251,5 +252,3 @@ LANGCHAIN_PROJECT='PROJECT_NAME'
 from dotenv import load_dotenv
 load_dotenv()
 ```
-
-- Use LangSmith to trace whether the output calls the appropriate tool/s
