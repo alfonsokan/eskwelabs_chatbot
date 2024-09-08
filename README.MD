@@ -3,6 +3,7 @@ This project focuses on the end-to-end development of a Q&A Chatbot tailored to 
 
 **Disclaimer**: This guide demonstrates how to create your own chatbot using `Llama3.1`. However, `Llama3.1` struggles with making multiple tool calls simultaneously. In contrast, `GPT-Turbo-3.5` handles this task more efficiently. For improved results, `GPT-Turbo-3.5` is recommended over `Llama3.1`. You can try out the chatbot powered by GPT-Turbo-3.5 [here.](https://askwelabscapstoneproject.streamlit.app/)
 
+<br/>
 
 ## Installation
 1. Clone the repository
@@ -27,6 +28,8 @@ ollama run llama3.1
 ```python
 streamlit run app.py
 ```
+
+<br/>
 
 ## Methodology
 The flow chart below displays the 4-step approach to developing the chatbot.
