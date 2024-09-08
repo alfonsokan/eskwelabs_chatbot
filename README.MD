@@ -28,14 +28,13 @@ streamlit run app.py
 ## Methodology
 The flow chart below displays the 4-step approach to developing the chatbot.
 
-[insert flowchart]
+![Askwelabs_Capstone-Project_Group-3](https://github.com/user-attachments/assets/72319f8f-0e94-4b05-8aa8-9fdadb78e640)
 
 **1. Data Preparation**
 
-[insert pic]
+
 
 For this step, the documents are embeddings and stored in the vector database called `embeddings_practicev1` located in this repository. 
-
 
 If interested, the code for embedding the documents can be viewed [here](https://colab.research.google.com/drive/1iyz_SkHv7TVDgKJBuRYb1iTtVfxDyGU0?usp=sharing).
 
@@ -44,9 +43,11 @@ If interested, the code for embedding the documents can be viewed [here](https:/
 **2. Retriever Generation**
 - There are two retriever tools, Eskwelabs Info Retriever and General Bootcamp Info Retriever, created from the embedded knowledge base.
 
+
+
 - Another retriever is optionally used when a user submits their resume to the chatbot.
     
-[insert pic]
+![image](https://github.com/user-attachments/assets/dc6b0a63-9e09-49dc-bc5b-1df98b1e3343)
 
 <br/>
 
@@ -230,13 +231,11 @@ if user_input := st.chat_input("Say something"):
 <br/>
 
 ### Knowledge Base Embedding
----
 The embedding of the knowledge base can be found [here.](https://colab.research.google.com/drive/1iyz_SkHv7TVDgKJBuRYb1iTtVfxDyGU0?usp=sharing)
 
 <br/>
 
 ### LangSmith Tracing
----
 LangSmith can be a useful tool for debugging the chatbot application. To trace its runs, do the following:
 - Create a LangSmith account
 - Retrieve API key
@@ -251,5 +250,3 @@ LANGCHAIN_PROJECT='PROJECT_NAME'
 from dotenv import load_dotenv
 load_dotenv()
 ```
-
-- Use LangSmith to trace whether the output calls the appropriate tool/s
