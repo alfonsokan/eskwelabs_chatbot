@@ -140,6 +140,9 @@ def process_chat(agent_executor, user_input, chat_history):
 
 ## Appendix
 ### Chatbot's Selective History Retrieval Mechanism
+
+![image](https://github.com/user-attachments/assets/230b3557-7740-42b5-b261-8dd25345c9da)
+
 - Past conversations’ user query and chatbot response are stored in a temporary vector store
 - For each new user query, only the most relevant parts of the vector store are retrieved and passed as chat history to the chatbot.
 - Importance: This feature reduces token consumption by efficiently retrieving only the relevant parts of the chat history, preventing unnecessary length and minimizing what is passed to the LLM.
