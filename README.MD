@@ -4,7 +4,7 @@ This project focuses on the end-to-end development of a Q&A Chatbot tailored to 
 ## Installation
 1. Clone the repository
 ```bash
-git clone
+git clone https://github.com/alfonsokan/eskwelabs_chatbot.git
 ```
 2. Install libraries
 ```bash
