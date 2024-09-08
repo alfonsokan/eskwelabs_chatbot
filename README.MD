@@ -34,7 +34,7 @@ The flow chart below displays the 4-step approach to developing the chatbot.
 
 
 
-For this step, the documents are embeddings and stored in the vector database called `embeddings_practicev1` located in this repository. 
+For this step, the documents are embeddings and stored in the vector database called `embeddings_deployment_sentencetransformer` located in this repository. 
 
 If interested, the code for embedding the documents can be viewed [here](https://colab.research.google.com/drive/1iyz_SkHv7TVDgKJBuRYb1iTtVfxDyGU0?usp=sharing).
 
