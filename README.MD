@@ -43,11 +43,11 @@ If interested, the code for embedding the documents can be viewed [here](https:/
 **2. Retriever Generation**
 - There are two retriever tools, Eskwelabs Info Retriever and General Bootcamp Info Retriever, created from the embedded knowledge base.
 
-
+![image](https://github.com/user-attachments/assets/067ff3d4-d059-4955-8377-3a8976270ba0)
 
 - Another retriever is optionally used when a user submits their resume to the chatbot.
     
-[insert pic]
+![image](https://github.com/user-attachments/assets/dc6b0a63-9e09-49dc-bc5b-1df98b1e3343)
 
 <br/>
 
@@ -252,3 +252,8 @@ LANGCHAIN_PROJECT='PROJECT_NAME'
 from dotenv import load_dotenv
 load_dotenv()
 ```
+- Use LangSmith to trace whether the output calls the appropriate tool/s
+![image](https://github.com/user-attachments/assets/edb93ccb-53eb-4f4e-af9f-21db1b9d30d6)
+
+- It can be seen that the appropriate tool was called, `eskwelabs_bootcamp_info_search` 
+![image](https://github.com/user-attachments/assets/6e40c0f6-dcb4-4553-b1cb-5e07445cc87a)
