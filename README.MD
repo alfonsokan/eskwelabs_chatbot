@@ -1,6 +1,8 @@
 # Eskwelabs Chatbot
 This project focuses on the end-to-end development of a Q&A Chatbot tailored to answer bootcamp-related queries, specifically for Eskwelabs. The methodology covers the key steps, including knowledge base embedding,  Retrieval-Augmented Generation (RAG) chatbot development using LangChain, and deployment via Streamlit. 
 
+Disclaimer: This guide demonstrates how to create your own chatbot using `Llama3.1`. However, `Llama3.1` struggles with making multiple tool calls simultaneously. In contrast, `GPT-Turbo-3.5` handles this task more efficiently. For improved results, `GPT-Turbo-3.5` is recommended over `Llama3.1`.
+
 ![image](https://github.com/user-attachments/assets/5c12ffc1-101f-46f1-bbd0-af179c133e75)
 
 ## Installation
@@ -125,7 +127,8 @@ def process_chat(agent_executor, user_input, chat_history):
 <br/>
 
 ## App Preview
-The guide was meant to help users deploy their own Q&A chatbot locally using open-source LLMs. However, the chatbot can be deployed easier via Streamlit by getting access to an LLM through an API key. View the deployed project [here](https://askwelabscapstoneproject.streamlit.app/).
+The guide was meant to help users deploy their own Q&A chatbot locally using open-source LLMs. However, the chatbot can be deployed easier via Streamlit by getting access to an LLM through an API key. View the deployed project [here](https://askwelabscapstoneproject.streamlit.app/) using GPT-Turbo-3.5 as the LLM instead.
+
 
 <br/>
 
