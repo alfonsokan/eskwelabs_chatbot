@@ -231,13 +231,11 @@ if user_input := st.chat_input("Say something"):
 <br/>
 
 ### Knowledge Base Embedding
----
 The embedding of the knowledge base can be found [here.](https://colab.research.google.com/drive/1iyz_SkHv7TVDgKJBuRYb1iTtVfxDyGU0?usp=sharing)
 
 <br/>
 
 ### LangSmith Tracing
----
 LangSmith can be a useful tool for debugging the chatbot application. To trace its runs, do the following:
 - Create a LangSmith account
 - Retrieve API key
