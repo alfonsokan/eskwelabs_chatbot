@@ -1,6 +1,8 @@
 # Eskwelabs Chatbot
 This project focuses on the end-to-end development of a Q&A Chatbot tailored to answer bootcamp-related queries, specifically for Eskwelabs. The methodology covers the key steps, including knowledge base embedding,  Retrieval-Augmented Generation (RAG) chatbot development using LangChain, and deployment via Streamlit. 
 
+![image](https://github.com/user-attachments/assets/5c12ffc1-101f-46f1-bbd0-af179c133e75)
+
 ## Installation
 1. Clone the repository
 ```bash
@@ -250,3 +252,7 @@ LANGCHAIN_PROJECT='PROJECT_NAME'
 from dotenv import load_dotenv
 load_dotenv()
 ```
+- LangSmith can be used to check if the LLM calls the appropriate tool/s for the prompt.
+![image](https://github.com/user-attachments/assets/b848364f-512d-436f-9455-40d709112d7e)
+![image](https://github.com/user-attachments/assets/2a8084b6-28a2-41e9-8ad9-f4b5d706e199)
+
