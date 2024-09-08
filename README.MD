@@ -234,7 +234,7 @@ if user_input := st.chat_input("Say something"):
 <br/>
 
 ### Knowledge Base Embedding
-The embedding of the knowledge base can be found [here.](https://colab.research.google.com/drive/1iyz_SkHv7TVDgKJBuRYb1iTtVfxDyGU0?usp=sharing)
+The code for the embedding of the knowledge base can be found [here.](https://colab.research.google.com/drive/1iyz_SkHv7TVDgKJBuRYb1iTtVfxDyGU0?usp=sharing)
 
 <br/>
 
