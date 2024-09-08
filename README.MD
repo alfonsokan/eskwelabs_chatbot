@@ -51,7 +51,7 @@ If interested, the code for embedding the documents can be viewed [here](https:/
 **2. Retriever Generation**
 - There are two retriever tools, Eskwelabs Info Retriever and General Bootcamp Info Retriever, created from the embedded knowledge base.
 
-
+![image](https://github.com/user-attachments/assets/f2926ccf-800a-4d8e-8f18-9e8b62697335)
 
 - Another retriever is optionally used when a user submits their resume to the chatbot.
     
