@@ -28,11 +28,11 @@ streamlit run app.py
 ## Methodology
 The flow chart below displays the 4-step approach to developing the chatbot.
 
-[insert flowchart]
+![Askwelabs_Capstone-Project_Group-3](https://github.com/user-attachments/assets/72319f8f-0e94-4b05-8aa8-9fdadb78e640)
 
 **1. Data Preparation**
 
-[insert pic]
+
 
 For this step, the documents are embeddings and stored in the vector database called `embeddings_practicev1` located in this repository. 
 
